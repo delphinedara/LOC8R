@@ -8,6 +8,9 @@ require('./app_server/models/db');
 const indexRouter = require('./app_server/routes/index');
 const usersRouter = require('./app_server/routes/users');
 
+//added chap6
+const apiRouter = require('./app_api/routes/index');
+
 const app = express();
 
 // view engine setup

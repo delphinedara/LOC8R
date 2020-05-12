@@ -51,6 +51,7 @@ const locationInfo = (req, res) => {
         rating: 3,
         facilities: ['Hot drinks', 'Food', 'Premium wifi'],
         coords: {lat: 51.455041, lng: -0.9690884},
+        // coords: {lat: 94.5786, lng: 39.0997}, //KCMO Coordinates
         openingTimes: [
           {
             days: 'Monday - Friday',

@@ -15,7 +15,7 @@ block content
           p= location.address
           .card.card-primary
             .card-block
-              h2.card-title Opening hours
+              h2.card-title Opening Hours
               each time in location.openingTimes
                 p.card-text
                   | #{time.days} :
@@ -34,14 +34,14 @@ block content
         .col-12.col-md-6.location-map
           .card.card-primary
             .card-block
-              h2.card-title Location map
+              h2.card-title Location Map
               img.img-fluid.rounded(src='https://maps.googleapis.com/maps/api/staticmap?center=51.455041,-0.9690884&zoom=17&size=400x350&sensor=false&markers=51.455041,-0.9690884&scale=2&key=AIzaSyAuBa36MkDANGeEoJLmnmTpVe1CTPN1AG4')
       .row
         .col-12
           .card.card-primary.review-card
             .card-block
               a.btn.btn-primary.float-right(href='/location/review/new') Add review
-              h2.card-title Customer reviews
+              h2.card-title Customer Reviews
               each review in location.reviews
                 .row.review
                   .col-12.no-gutters.review-header
